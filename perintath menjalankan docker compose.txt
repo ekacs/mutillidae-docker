@@ -1,0 +1,3 @@
+docker compose -f .build/docker-compose.yml up --build --detach
+
+#PERHATIAN pastikan saat menjalankan ini tidak ada vulnerabilty web lab yang sedang berjalan, karena ini berjalan di port 81,82,83 yang juga dipakai oleh BWAP, VULNLAB, DVWA :)
